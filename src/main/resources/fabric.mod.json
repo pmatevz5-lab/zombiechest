@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "zombiechest",
+  "version": "${version}",
+  "name": "Zombie Village Treasure",
+  "description": "2% of zombie villages get a hidden chest of netherite blocks.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.zombiechest.ZombieChestMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.1", "java": ">=21", "fabric-api": "*" }
+}
